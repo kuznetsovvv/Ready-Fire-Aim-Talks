@@ -1,0 +1,47 @@
+<div class="login-column">
+<h1> Please Log In </h1> 
+<form name="loginform" id="loginform" action="https://readyfireaimtalks.com/wp-login.php" method="post"> 
+<input type="text" name="log" id="user_login" class="input" value="" required placeholder="Email Address"> 
+<input type="password" name="pwd" id="user_pass" class="input" value="" required placeholder="Password">   
+<div class="flleft"><input name="rememberme" type="checkbox" id="rememberme" value="forever" checked>Remember Me</div><div class="flright"><a href="https://readyfireaimtalks.com/log-in/?action=lostpassword">Forgot your password?</a></div>
+<div class="clearfix"> &nbsp; </div>
+		<input type="hidden" name="testcookie" value="1">
+<div class="loginbutton">Log In</div>
+<br><div class="orbar"></div><div class="or">or</div>
+<br>
+    <div class="otherbutton" onclick="window.location.replace('https://readyfireaimtalks.com/log-in/?action=register')">Register</div>
+</form>
+</div>
+<div class="register-column">
+<h1> Register a New Account </h1>	
+We will email you a private link to activate your account.	
+<form name="registerform" id="registerform" action="https://readyfireaimtalks.com/wp-login.php?action=register" method="post">
+<input type="email" name="user_email" id="user_email" class="input" value="" required placeholder="Work Email">
+<input type="hidden" name="user_login" id="user_login" class="input" value="" required placeholder="Confirm Work Email">
+<input type="hidden" name="redirect_to" value="/log-in/?action=register&success=1" />	
+<div class="loginbutton">Register</div>
+</form>
+Already have an account? <a href="https://readyfireaimtalks.com/log-in/">Sign In</a>
+</div>
+<div class="recover-column">
+<h1> Forgot your password? </h1>	
+Enter your email below for a link to reset it.	
+<form name="lostpasswordform" id="lostpasswordform" action="https://readyfireaimtalks.com/wp-login.php?action=lostpassword" method="post">
+<input type="text" name="user_login" id="user_login" class="input" value="" required placeholder="Email Address">
+<input type="hidden" name="redirect_to" value="/log-in/?action=recover&success=1" />
+<div class="loginbutton">Recover Password</div>
+</form>
+<br>
+<a href="https://readyfireaimtalks.com/log-in/">Back to login page</a>
+</div>
+<div class="reset-column">
+<h1> Set Your Password </h1>	
+Enter your new password below.	
+<form name="resetpassform" id="resetpassform" action="https://readyfireaimtalks.com/wp-login.php?action=resetpass" method="post">
+<input type="password" name="pass1" id="pass1" class="input" value="" required placeholder="Your New Password">
+<input type="password" name="pass2" id="pass2" class="input" value="" required placeholder="Confirm New Password">
+<input type="hidden" name="rp_key" id="rp_key" value="" /><input type="hidden" id="user_login" value="">
+<input type="hidden" name="redirect_to" value="/log-in/" />
+    <div class="loginbutton">Set Password</div></form>
+</div>
+<div class="clearfix"> &nbsp; </div>

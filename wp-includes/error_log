@@ -1,0 +1,10 @@
+[14-Mar-2018 18:20:33 UTC] PHP Fatal error:  Class 'Walker' not found in /home/agoramac/public_html/RFAT/wp-includes/class-walker-nav-menu.php on line 17
+[14-Mar-2018 21:14:05 UTC] PHP Fatal error:  Class 'Walker' not found in /home/agoramac/public_html/RFAT/wp-includes/class-walker-nav-menu.php on line 17
+[23-Mar-2018 03:55:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/agoramac/public_html/RFAT/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/agoramac/public_html/RFAT/wp-includes/locale.php on line 10
+[23-Mar-2018 06:15:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/agoramac/public_html/RFAT/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/agoramac/public_html/RFAT/wp-includes/locale.php on line 10

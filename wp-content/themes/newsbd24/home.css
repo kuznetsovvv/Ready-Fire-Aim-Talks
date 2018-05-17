@@ -1,0 +1,163 @@
+header, aside{
+    display:none !important;
+}
+main form *, main p > strong,  main form > p >*{
+    font-size: 22px;
+}
+main form > div, main form > div > a{
+    font-size: 16px;    
+}
+main h1 {
+    font-size: 32px !important;
+}
+body, #content{
+    min-height: 100vh;
+}
+.entry-content{
+    margin:0 !important;
+     display:inline-block;
+}
+.entry-content>div{
+     display:inline-block;
+}
+.content-area{
+    text-align: center;
+}
+.logincontainer{
+    position: inline-block;
+    width:100%;
+}
+main form > p input[type="checkbox"]{
+    transform:scale(1.5, 1.5);
+}
+.logincolumn{
+    width:100%;
+    float:left;
+}
+.homecolumn img{
+    display:block;
+    width:125px;
+    height: auto;
+    vertical-align: center;
+    float:left;
+    margin: 0 15px 15px 0;
+    box-shadow: 2px 2px 15px #888888;
+}
+.homecolumn p{
+    width: 100%;
+    text-align: center;
+}
+form input{
+    border-radius: 0 !important;
+}
+form input[type=submit] {
+    background: #fe7030 !important;
+}
+main form > p > input[type="text"], main form > p > input[type="password"], main form > p > input[type="email"]{
+    width:100%;
+    box-shadow: inset 2px 2px 2px 0px #dddddd;
+}
+.homewidthlimit{
+    max-width:900px;
+    width:96vw;
+    margin:auto;
+}
+.loginmodal{
+    z-index:200;
+    position: fixed;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    width: 550px;
+    max-width: 90vw;
+    padding: 2%;
+    background: #ffffff;
+    border: 2px solid #777777;
+    overflow:auto;
+}
+
+.loginmodal p{
+    width: 100%; 
+    text-align: center;
+}
+.loginmodaloverlay{
+    z-index: 199;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:  rgba(48,48,48,0.35);
+    display: none;
+}
+#created{
+    display:none;
+}
+#reset{
+    display:none;
+}
+#set{
+    display:none;
+}
+#logfail{
+    display:none;
+}
+.loginbutton, .otherbutton{
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    background: #fe7030;
+    border: 1px solid #cccccc;
+    font-size: 22px;   
+    box-shadow: 2px 2px 3px #bbbbbb;
+}
+.loginbutton:hover, .otherbutton:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    border: 1px solid #FE7030;
+    background: #ff905e;
+    background: radial-gradient(#fe7030, #fe7030, #fe7030, #ff905e, #ff905e);
+}
+.orbar{
+    border-bottom: 1px solid #262626;
+    width:100%;  
+    height: 10px;
+}
+.or{
+    width:2em;
+    text-align: center;  
+    font-size: 20px;
+    line-height: 1;
+    margin: -10px auto 0 auto;
+    padding: 0 0;
+    background: #ffffff;
+}
+#padarea{
+    padding-top: 32px !important;
+}
+.flleft{
+    width:50%;
+    float:left;
+}
+.flright{
+    width:50%;
+    float:right;
+    text-align:right;
+}
+.flright *, .closeright *{
+    text-align:right;
+}
+.closeright{
+    width:0;
+    overflow: visible;
+    float:right;
+    text-align:right;
+    margin-right: 5%;
+}
+.closeright:hover{
+    cursor:pointer;
+}
+#headMid, #headMid *{
+    display:block !important;
+}

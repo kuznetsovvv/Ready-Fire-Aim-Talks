@@ -1,0 +1,40 @@
+[08-Feb-2018 18:56:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Metacafe_Thumbnails' not found in /home/agoramac/public_html/RFAT/wp-includes/class-wp-hook.php on line 286
+[28-Feb-2018 21:09:25 UTC] PHP Fatal error:  Cannot redeclare your_login_url() (previously declared in /home/agoramac/public_html/RFAT/wp-content/plugins/bbbLogin/bbbLogin.php:18) in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/functions.php on line 16
+[28-Feb-2018 21:09:29 UTC] PHP Fatal error:  Cannot redeclare your_login_url() (previously declared in /home/agoramac/public_html/RFAT/wp-content/plugins/bbbLogin/bbbLogin.php:18) in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/functions.php on line 16
+[08-Mar-2018 17:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printr() in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php:30
+Stack trace:
+#0 /home/agoramac/public_html/RFAT/wp-includes/template-loader.php(74): include()
+#1 /home/agoramac/public_html/RFAT/wp-blog-header.php(19): require_once('/home/agoramac/...')
+#2 /home/agoramac/public_html/RFAT/index.php(17): require('/home/agoramac/...')
+#3 {main}
+  thrown in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php on line 30
+[08-Mar-2018 17:06:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printr() in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php:30
+Stack trace:
+#0 /home/agoramac/public_html/RFAT/wp-includes/template-loader.php(74): include()
+#1 /home/agoramac/public_html/RFAT/wp-blog-header.php(19): require_once('/home/agoramac/...')
+#2 /home/agoramac/public_html/RFAT/index.php(17): require('/home/agoramac/...')
+#3 {main}
+  thrown in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php on line 30
+[08-Mar-2018 17:17:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php on line 26 and at least 1 expected in /home/agoramac/public_html/RFAT/wp-includes/post.php:1777
+Stack trace:
+#0 /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php(26): get_post_meta()
+#1 /home/agoramac/public_html/RFAT/wp-includes/template-loader.php(74): include('/home/agoramac/...')
+#2 /home/agoramac/public_html/RFAT/wp-blog-header.php(19): require_once('/home/agoramac/...')
+#3 /home/agoramac/public_html/RFAT/index.php(17): require('/home/agoramac/...')
+#4 {main}
+  thrown in /home/agoramac/public_html/RFAT/wp-includes/post.php on line 1777
+[08-Mar-2018 17:26:03 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php on line 39
+[08-Mar-2018 17:26:13 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php on line 39
+[08-Mar-2018 17:26:20 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/agoramac/public_html/RFAT/wp-content/themes/newsbd24/single.php on line 39
+[20-Mar-2018 20:28:16 UTC] PHP Warning:  require_once(/home/agoramac/public_html/RFAT/wp-content/plugins/wordfence/lib/../models/page/wfPage.php): failed to open stream: No such file or directory in /home/agoramac/public_html/RFAT/wp-content/plugins/wordfence/lib/wordfenceClass.php on line 29
+[20-Mar-2018 20:28:16 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/agoramac/public_html/RFAT/wp-content/plugins/wordfence/lib/../models/page/wfPage.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/agoramac/public_html/RFAT/wp-content/plugins/wordfence/lib/wordfenceClass.php on line 29
+[20-Mar-2018 20:28:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/agoramac/public_html/RFAT/wp-content/mu-plugins/endurance-page-cache.php:370
+Stack trace:
+#0 /home/agoramac/public_html/RFAT/wp-content/mu-plugins/endurance-page-cache.php(403): Endurance_Page_Cache->is_cachable()
+#1 /home/agoramac/public_html/RFAT/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home/agoramac/public_html/RFAT/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/agoramac/public_html/RFAT/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/agoramac/public_html/RFAT/wp-includes/load.php(679): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home/agoramac/public_html/RFAT/wp-content/mu-plugins/endurance-page-cache.php on line 370
